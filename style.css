@@ -1,0 +1,32 @@
+body{
+    display: flex;
+    background-color: rgb(255, 247, 236);
+    font-family: proxima-nova, sans-serif;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    -webkit-user-drag: none;
+}
+
+h1{
+    text-align: center;
+    font-size: 2.5em;
+    margin-top: 0;
+    padding-top: 20px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+}
+.square {
+    width: 16px;
+    height: 16px;
+}
+.buttons{
+    padding: 20px;
+}
+.size{
+    margin: 0px 10px 20px 10px;
+}
