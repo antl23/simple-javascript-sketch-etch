@@ -31,9 +31,11 @@ function createGrid(size){
 const squares = document.querySelectorAll('.square');
 squares.forEach(square => {
     body.addEventListener('mousedown', (e) => {
+    if(e.target.tagName !== 'INPUT'){
     e.preventDefault();
     isDraw = true;
     console.log('mousedown');
+    }
     });
     
     body.addEventListener('mouseup', () => {
